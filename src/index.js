@@ -6,18 +6,13 @@
  * @returns {number} Seconds passed since Unix epoch (01 January 1970)
  * @example
  * import dotDotDot from "dot-dot-dot"
- * const result = dotDotDot()
- * result === 1549410770
- * setTimeout(() => {
- *   const result2 = dotDotDot(result)
- *   result2 === 3
- * }, 3000)
+ * const result = dotDotDot("hello", 4)
+ * result === "hell"
  */
-export default compareValue => {
-  const seconds = Math.floor(Date.now() / 1000)
-  if (compareValue === undefined) {
-    return seconds
-  } else {
-    return seconds - compareValue
+export default (string, maxLength = 16, endString = "…") => {
+  const forcedString = String(string)
+  if (forcedString.length < maxLength) {
+    return forcedString
   }
+  return forcedString.slice(0, maxLength - endString.length) + endString
 }

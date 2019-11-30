@@ -8,6 +8,8 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: dotDotDot} = indexModule
 
 it("should run", () => {
-  const result = dotDotDot()
-  expect(result).toBeGreaterThan(1549410770)
+  const string = "hello world"
+  expect(dotDotDot(string)).toBe(string)
+  expect(dotDotDot(string, 4)).toBe("hel…")
+  expect(dotDotDot(string, 4, "...")).toBe("h...")
 })
