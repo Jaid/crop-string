@@ -1,3 +1,6 @@
 # dot-dot-dot
-## Under construction
-Not much to see right now. Come back lator! :crocodile:
+
+Trims strings to a maximum length and appends dot dot dot if needed.
+
+
+
