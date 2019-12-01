@@ -30,5 +30,5 @@
     "preparActionJest": "npm run build:prod",
     "prepareActionJest": "npm run build:prod"
   },
-  "name": "crop-string"
+  "name": "dot-dot-dot"
 }
