@@ -5,11 +5,11 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 /**
  * @type { import("../src") }
  */
-const {default: dotDotDot} = indexModule
+const {default: cropString} = indexModule
 
 it("should run", () => {
   const string = "hello world"
-  expect(dotDotDot(string)).toBe(string)
-  expect(dotDotDot(string, 4)).toBe("hel…")
-  expect(dotDotDot(string, 4, "...")).toBe("h...")
+  expect(cropString(string)).toBe(string)
+  expect(cropString(string, 4)).toBe("hel…")
+  expect(cropString(string, 4, "...")).toBe("h...")
 })

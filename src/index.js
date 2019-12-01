@@ -1,4 +1,4 @@
-/** @module dot-dot-dot */
+/** @module crop-string */
 
 /**
  * @function
@@ -7,8 +7,8 @@
  * @param {string} [endString="…"]
  * @returns {string} A string that with a length that equals to or is smaller than maxLength
  * @example
- * import dotDotDot from "dot-dot-dot"
- * const result = dotDotDot("hello", 4)
+ * import cropString from "crop-string"
+ * const result = cropString("hello", 4)
  * result === "hel…"
  */
 export default (string, maxLength = 16, endString = "…") => {
