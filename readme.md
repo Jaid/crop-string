@@ -3,6 +3,15 @@
 
 Trims strings to a maximum length and appends dot dot dot if needed.
 
+## Installation
+<a href='https://npmjs.com/package/crop-string'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save crop-string@^
+```
+<a href='https://yarnpkg.com/package/crop-string'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add crop-string@^
+```
 
 
 ## Try it out
