@@ -29,5 +29,6 @@
     "test:debug": "DEBUG=\"$DEBUG,$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand",
     "prepareActionJest": "npm run build:prod"
   },
-  "name": "crop-string"
+  "name": "crop-string",
+  "description": "Trims strings to a maximum length and appends dot dot dot if needed."
 }
