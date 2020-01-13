@@ -31,5 +31,9 @@
   },
   "name": "crop-string",
   "description": "Trims strings to a maximum length and appends dot dot dot if needed.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/crop-string"
+  }
 }
