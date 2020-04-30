@@ -35,5 +35,20 @@
     "url": "https://github.com/jaid/crop-string"
   },
   "homepage": "https://github.com/Jaid/crop-string",
-  "keywords": []
+  "keywords": [
+    "crop",
+    "crop-string",
+    "dot-dot-dot",
+    "lib",
+    "library",
+    "limit",
+    "maximum-length",
+    "string",
+    "strings",
+    "trim",
+    "trim-string",
+    "trims-strings",
+    "util",
+    "utility"
+  ]
 }
