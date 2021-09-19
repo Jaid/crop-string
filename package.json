@@ -50,5 +50,6 @@
     "trims-strings",
     "util",
     "utility"
-  ]
+  ],
+  "type": "module"
 }
